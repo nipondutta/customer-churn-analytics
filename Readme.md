@@ -169,7 +169,7 @@ The Power BI dashboard provides an interactive view of:
 
 ### Dashboard Preview
 
-![Customer Churn Dashboard](screenshots/dashboard_overview.png)
+![Customer Churn Dashboard](screenshots/dashboard.png)
 
 ## Key Insights
 
@@ -302,59 +302,5 @@ screenshots/high_risk_customers.png
 ```
 
 Show your high-risk customer table.
-
----
-
-# 8.6 Create your GitHub repository
-
-On GitHub, create:
-
-```text
-Customer-Churn-Analytics
-```
-
-Then from PowerShell:
-
-```powershell
-git init
-```
-
-Add everything:
-
-```powershell
-git add .
-```
-
-Check:
-
-```powershell
-git status
-```
-
-You should make sure things like `.env` and `.venv` aren't being added.
-
-Then:
-
-```powershell
-git commit -m "Initial customer churn analytics project"
-```
-
-Set your main branch:
-
-```powershell
-git branch -M main
-```
-
-Add your remote:
-
-```powershell
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-```
-
-Then:
-
-```powershell
-git push -u origin main
-```
 
 ---
